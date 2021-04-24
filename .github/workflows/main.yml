@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         ros_distro: [kinetic, melodic] # Temp remove noetic waitng for release of tf2_web_republisher
-        node_version: [14]
+        node_version: [14, 16]
     steps:
       - uses: actions/checkout@v2
       - name: Docker pull
