@@ -50,6 +50,7 @@
     "node": ">=0.10"
   },
   "scripts": {
+    "which_grunt": "which grunt",
     "build": "grunt build",
     "test": "grunt test",
     "test-examples": "grunt test-examples",
