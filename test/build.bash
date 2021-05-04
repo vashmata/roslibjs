@@ -26,8 +26,6 @@ echo -e "\e[1m\e[35mnpm install -g grunt-cli\e[0m"
 npm install -g grunt-cli
 echo -e "\e[1m\e[35mnpm install\e[0m"
 npm install
-echo -e "\e[1m\e[35mnpm which_grunt\e[0m"
-npm run which_grunt
 echo -e "\e[1m\e[35m which grunt\e[0m"
 which grunt
 echo -e "\e[1m\e[35mnpm run build\e[0m"
